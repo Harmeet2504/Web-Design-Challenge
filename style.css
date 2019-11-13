@@ -1,0 +1,238 @@
+body{
+    background:  rgb(230, 232, 233); 
+}
+
+/* Navigation bar styling */
+.navbar{
+    max-height: 50px; 
+	background-color: white; 
+    font-size: 17px; 
+}
+
+.navigation .navbar-brand{
+	color: white; 
+	margin-left: 40px;
+	padding: inherit; 
+	font-weight: bold; 
+	font-style: normal;
+	background-color: #4BC498;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-link:hover{
+    background-color:#c2cbc9;
+}
+
+
+/* Media Queries */
+@media (max-width: 991.98px){
+.navbar-expand-lg{
+	background-color: #38ab87;
+}
+.navbar{
+    max-height: none; 
+    padding: inherit;
+}
+.navbar div{
+    margin: inherit; 
+    background-color: white;  
+}
+.navbar-brand{
+    padding: 10px; 
+}
+
+button{
+    margin-left: auto; 
+}
+
+button:focus {
+    outline: 1px dotted;
+}
+}
+
+.description {
+	margin-top: 30px;
+	margin-bottom: 60px;
+	margin-left:40px;
+	padding: 20px 40px 10px;
+	color: black;
+	background-color: white;
+	text-align: justify;
+}
+
+.imageNav-content {
+	margin-top: 35px;
+	margin-bottom: 30px;
+	padding: 10px 30px 40px;
+	background-color: white;
+}
+.description-header, .imageNav-header {
+	padding-top: 15px; 
+	padding-left: 4px;
+	color: #38ab87;
+	font-size: 26px;
+	font-weight: bold;
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+img{
+	width: 100%;
+	height: 100%;
+}
+
+.description-lat-temp-image {
+	float: left;
+	width: 40%;
+	height: 40%;
+}
+
+p{
+	color:slategrey;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.active, .imageNav-photo:hover{
+    border-color:#38ab87;
+    border-style: solid; 
+}
+
+.footer{
+	background-color: #505251; 
+    border-top-style: solid; 
+    border-top-width: 4px; 
+    border-top-color: #38ab87;
+    color: white; 
+    min-height: 50px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px; 
+    text-align: center; 
+    position: fixed;
+    padding-top: 10px; 
+	width: 100%;
+	left: 0;
+	bottom: 0;
+}
+
+/* comparison-page */
+.compare-container{
+	background: white;
+	margin-top:50px;
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-bottom: 60px;
+}
+.compare-container-figure{
+	margin-top:-30px;
+}
+.compare-title{
+	margin-top:50px;
+	margin-left: 60px;
+	color: #38ab87;
+	font-size: 26px;
+	font-weight: bold;
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+.compare-text{
+	margin-top:30px;
+	margin-left: 60px;
+	color:black;
+	font-size:14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.compare-line{
+	align:center;
+}
+.temp-title, .hum-title, .cloud-title, .wind-title{
+	margin-top:50px;
+	margin-left: 230px;
+	color: #38ab87;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+/* humidity-page */
+.humidity-container{
+	background:white;
+	margin-top:50px;
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-bottom: 60px;
+}
+
+.humidity-content{
+	margin-left: 60px;
+}
+/* max-temperature page */
+.temp-container{
+	background:white;
+	margin-top:50px;
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-bottom: 60px;
+}
+
+.temp-content{
+	margin-left: 60px;
+}
+
+/*cloudiness page*/
+.cloud-container{
+	background:white;
+	margin-top:50px;
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-bottom: 60px;
+}
+
+.cloud-content{
+	margin-left: 60px;
+}
+
+/*wind speed page*/
+.wind-container{
+	background:white;
+	margin-top:50px;
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-bottom: 60px;
+}
+
+.wind-content{
+	margin-left: 60px;
+	text-align: justify;
+}
+/* data-page */
+.title_data{
+	color: #38ab87;
+	font-size: 26px;
+	padding-top: 50px;;
+	margin-left: 60px;
+	margin-top:90px;
+	font-weight: bold;
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.p1{
+	margin-left: 60px;
+	color: black;
+}
+
+.body_title, .container_table{
+	background:white;
+}
+
+.container_table{
+	margin-top:70px;
+	margin-left: 80px;
+	margin-right: 60px;
+	margin-bottom: 60px;
+}
+
+.table{
+	margin-left: 60px;
+	margin-right: 100px;
+
+}
